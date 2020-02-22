@@ -1,7 +1,7 @@
 import { resolve, join } from 'path'
 import { writeFile } from 'fs-extra'
 import setPath from 'lodash/set'
-import FastifyESMLoader, { methodPathSymbol } from '/Users/jonas/code/galvez/fastify-esm-loader'
+import FastifyESMLoader, { methodPathSymbol } from 'fastify-esm-loader'
 import { 
   translateRequest,
   translateRequestWithPayload,
