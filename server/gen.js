@@ -182,5 +182,5 @@ function generateClientAPIMethodsBody (methods, loadedMethods = '', path = null,
       }
     }
   }
-  return `${loadedMethods}\n`
+  return loadedMethods
 }

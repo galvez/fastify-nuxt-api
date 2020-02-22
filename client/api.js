@@ -7,7 +7,5 @@ export default client => ({
     msgWithInjection (options = {}) {
       return client.get('/api/hello-with-injection', options)
     },
-
   },
-
 })
